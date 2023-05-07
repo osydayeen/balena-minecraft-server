@@ -42,6 +42,8 @@ services:
     privileged: true
     ports:
       - "25575:25575/tcp"
+   netdatablock:
+      bh.cr/gh_odyslam/netdatablock
 volumes:
   serverfiles:
   servercache:
